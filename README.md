@@ -202,7 +202,6 @@ create temporary function url_encode as 'cc.shanruifeng.functions.url.UDFUrlEnco
 create temporary function url_decode as 'cc.shanruifeng.functions.url.UDFUrlDecode';
 ```
 e.g.,
-
 add jar hdfs://172.31.9.255:9000/user/dc/func/hive-third-functions-2.1.1-shaded.jar;
 create temporary function id_card_birthday as 'cc.shanruifeng.functions.card.UDFChinaIdCardBirthday';
 SELECT id_card_birthday("431026198511105033");
